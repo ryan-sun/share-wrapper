@@ -19,11 +19,15 @@ compileOptions {
 #
 FixBugManage的使用
 ＃
-首先，在自定义Application中初始化： 
+首先，在自定义Application中初始化：
+＃
 init(versionCode)； 
+＃
 当versionCode与之前的versionCode不同，会自动清除掉之前addPatch所有的补丁文件 
+＃
 当versionCode与之前的versionCode相同，会自动加载之前addPatch所有的补丁文件
 ＃
+
 package cn.coolspan.open.fixbug;
 
 import android.app.Application;
